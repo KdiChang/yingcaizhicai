@@ -19,11 +19,9 @@ import {
   <div id="app">
     <div class="header">
       <el-menu
-        :default-active="activeIndex"
         class="el-menu-demo"
         mode="horizontal"
         :ellipsis="false"
-        @select="handleSelect"
       >
       <el-menu-item index="0">
         <img src="./assets/logo2.png" width="128px"/>
