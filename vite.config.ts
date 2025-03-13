@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/yingcaizhicai/', // 替换为你的仓库名（替代原来的publicPath）
+  base: '/', 
   plugins: [
     vue(),
   ],
@@ -14,6 +14,6 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'dist' // 替代原来的outputDir
+    outDir: 'dist' 
   }
 })
