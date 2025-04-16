@@ -24,7 +24,7 @@ import {
         :ellipsis="false"
       >
       <el-menu-item index="0">
-        <img src="./assets/logo3.png" width="128px"/>
+        <img src="./assets/logo4.png" width="128px"/>
         <!-- <p class="title">映彩智材</p> -->
       </el-menu-item>
 
